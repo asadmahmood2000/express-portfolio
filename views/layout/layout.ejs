@@ -10,19 +10,11 @@
     </head>
 
     <body>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about-me">About</a>
-            <a href="/projects">Projects</a>
-            <a href="/contact">Contact</a>
-        </nav>
+        <%- include('./navbar') %>
 
         <h1>WELCOME TO MY PAGE</h1>
-
         <%- body %>
 
-        <footer>    
-            copyright&copy; 2022 Asad Mahmood
-        </footer>
+        <%- include('./footer') %>
     </body>
 </html>
