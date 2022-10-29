@@ -39,9 +39,11 @@ nav a{
 
 
 body{
-        background-image: linear-gradient(blue, whitesmoke);
+        background-image: linear-gradient(red, whitesmoke);
         height: 100%;
+
     }
 html{
     height: 100%
 }
+

@@ -1,8 +1,49 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+#header1{
+  color: red;
+}
+form{
+  background-color: whitesmoke;
+   border-radius: 20px; 
+   padding: 3em; 
+   margin: 2em;
+   
+}
+label{
+font-weight: bold;
+color: palevioletred;
+
+}
+#submit{
+  text-align: center;
+}
+footer{
+  font-size: 120%;
+  font-weight: bold;
+}
+nav{
+  width: 100%;
+  text-align: center;
+  height: 2em;
+  background-color: black;
+  vertical-align: middle;
+  border-radius: 20px; 
+  margin: 2em;
+}
+nav a{
+  color: white;
+  font-size: 120%;
+  font-weight: bolder;
+  margin-right: 2em;
 }
 
-a {
-  color: #00B7FF;
+
+body{
+      background-image: linear-gradient(red, whitesmoke);
+      height: 100%;
+
+  }
+html{
+  height: 100%
 }
+
